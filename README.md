@@ -7,11 +7,11 @@ NIM : 1810817220009
 
 ## Persyaratan
  - PHP 7.4
- - [Composer] (https://getcomposer.org/)
+ - [Composer](https://getcomposer.org/)
 
 ## Instalasi
  1. Clone Repository ini 
-        [https://github.com/shsheeila/webframework] (https://github.com/shsheeila/webframewor)
+        [https://github.com/shsheeila/webframework](https://github.com/shsheeila/webframewor)
  2. Siapkan database lokal
  3. Buat file `.env` dari file `.env.example`dan sesuaikan dengan database yang sudah dibuat
  4. Install dependensi PHP dengan 

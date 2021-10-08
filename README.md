@@ -2,7 +2,7 @@
 
 Website ini merupakan sebuah website mengenai informasi vaksinasi COVID-19. Website ini dibuat menggunakan [ Laravel 8](https://laravel.com)
 
-Nama : Siti Sheilawati
+Nama : Siti Sheilawati\
 NIM : 1810817220009
 
 ## Persyaratan
@@ -11,7 +11,9 @@ NIM : 1810817220009
 
 ## Instalasi
  1. Clone Repository ini 
-        [https://github.com/shsheeila/webframework](https://github.com/shsheeila/webframewor)
+    ```
+    https://github.com/shsheeila/webframework
+    ```
  2. Siapkan database lokal
  3. Buat file `.env` dari file `.env.example`dan sesuaikan dengan database yang sudah dibuat
  4. Install dependensi PHP dengan 

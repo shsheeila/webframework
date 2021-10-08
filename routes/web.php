@@ -14,12 +14,17 @@ use App\Http\Controllers\NewsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+#FronEnd
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index');
+})->name('home');
 
-Route::get('/news', [NewsController::class,'index']);
+# BackEnd
+Route::get('/dashboard', function() {
+    return view('dashboard');
+})->name('dashboard');
 
-   #$news = DB::table('news')->get();
-   #return $news;
+Route::get('/news', [NewsController::class, 'frontend_index'])->name('frontend_index');
+Route::get('/dashboard/news', [NewsController::class, 'backend_index'])->name('backend_index');
+Route::get('/tambahinfo', [NewsController::class, 'tambahinfo'])->name('tambahinfo_news');
+Route::post('/store', [NewsController::class, 'store'])->name('store_news');

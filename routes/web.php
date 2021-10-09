@@ -26,5 +26,5 @@ Route::get('/dashboard', function() {
 
 Route::get('/news', [NewsController::class, 'frontend_index'])->name('frontend_index');
 Route::get('/dashboard/news', [NewsController::class, 'backend_index'])->name('backend_index');
-Route::get('/tambahinfo', [NewsController::class, 'tambahinfo'])->name('tambahinfo_news');
-Route::post('/store', [NewsController::class, 'store'])->name('store_news');
+Route::get('/tambahinfo/news', [NewsController::class, 'tambahinfo'])->name('tambahinfo_news');
+Route::post('/form/news', [NewsController::class, 'store'])->name('form_news');

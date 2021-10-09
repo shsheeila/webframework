@@ -15,31 +15,14 @@
      <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 
      <!-- Favicons -->
-     <link rel="icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon">
-
-     <style>
-       .bd-placeholder-img {
-         font-size: 1.125rem;
-         text-anchor: middle;
-         -webkit-user-select: none;
-         -moz-user-select: none;
-         user-select: none;
-       }
-
-       @media (min-width: 768px) {
-         .bd-placeholder-img-lg {
-           font-size: 3.5rem;
-         }
-       }
-     </style>
-
+     <link rel="icon" href="{{ asset('assets/img/favicon.png') }}" type="image/x-icon">
 
      <!-- Custom styles for this template -->
      <link href="{{ asset('assets/css/dashboard.css') }}" rel="stylesheet">
    </head>
    <body>
 
-<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+<header class="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-0 shadow">
     <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">LAMAN ADMIN</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,7 +30,7 @@
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <div class="navbar-nav">
         <div class="nav-item text-nowrap">
-        <a class="nav-link px-3" href="#">Sign out</a>
+        <a class="nav-link px-3" href="/">Logout</a>
         </div>
     </div>
 </header>
